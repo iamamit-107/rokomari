@@ -1,0 +1,257 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(235, 234, 234);
+}
+
+header .search-box {
+    border: 1px solid rgb(235, 234, 234);
+    width: 50%;
+    border-bottom: 2px solid orange;
+}
+
+header .search-box p {
+    margin-bottom: 0;
+    padding-left: 20px;
+    border-right: 1px solid rgb(235, 234, 234);
+    padding-right: 20px;
+}
+
+header input {
+    border: none;
+    width: 70%;
+}
+header input:focus {
+    outline: none;
+}
+
+header button {
+    border: none;
+    border: 1px solid #43b3ee;
+    background-color: #43b3ee;
+}
+
+/* nav */
+nav a:hover {
+    color: #43b3ee !important;
+}
+
+/* Menu section */
+#menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #212837;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+/* Hero section */
+#hero {
+    background-image: url("./img/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: white;
+}
+
+#hero .container {
+    height: 100%;
+}
+
+#hero h4 {
+    font-size: 25px;
+    color: #43b3ee;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.btn-common {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    background-color: #ff0000;
+    padding: 5px 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.btn-common:hover {
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    transition: 0.5s;
+}
+
+/* Summary */
+#summary {
+    padding: 100px 0;
+    background-image: url("./img/dotted.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.summary-inner {
+    background-image: url("./img/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 2.5px 4.33px 5px rgba(217, 217, 217, 0.75);
+    background-color: #ffffff;
+    padding: 30px 0;
+}
+.summary-inner img {
+    margin-bottom: 10px;
+}
+.summary-inner h4 {
+    font-size: 25px;
+    color: #050054;
+    font-weight: 500;
+}
+
+/* course */
+#course {
+    padding: 100px 0;
+    background-color: #f1f9ff;
+    background-image: url("./img/dotted.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.online-text {
+    margin-bottom: 50px;
+}
+.person-img {
+    position: relative;
+    top: -40px;
+    margin-left: 10px;
+}
+.free-img {
+    position: relative;
+    top: -15px;
+    margin-right: 10px;
+}
+.card-body {
+    position: relative;
+    top: -35px;
+}
+.card {
+    width: 100% !important;
+}
+
+/* course */
+#course .footer {
+    position: relative;
+    top: 29px;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
+.btn-card {
+    font-weight: 300;
+    font-style: 20;
+    padding: 3px 30px;
+    font-size: 20px;
+}
+
+.btn-all-course {
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid red;
+    padding: 5px 50px;
+}
+.btn-all-course:hover {
+    background-color: #ff0000;
+    color: white;
+    transition: 0.5s;
+}
+
+/* testimonial */
+#testimonial {
+    padding: 100px 0;
+}
+.testimonial-text {
+    text-align: justify;
+}
+
+.star {
+    color: #ffc709;
+    margin: 0 2px;
+}
+.arrow {
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.testimonial-text::before {
+    content: url("./img/quotes.png");
+    position: absolute;
+    top: -40px;
+    left: -11px;
+}
+.testimonial-text::after {
+    content: url("./img/quotes2.png");
+    position: absolute;
+    right: -15px;
+    bottom: 15px;
+}
+#testimonial .arrow:hover {
+    fill: red;
+}
+
+/* footer */
+footer {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-image: url("./img/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newsletter {
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+.newsletter h2 {
+    color: #0c00d1;
+}
+.btn-footer {
+    background-color: #ff0000;
+    color: white;
+}
+.btn-footer:hover {
+    background-color: white;
+    border: 1px solid #ff0000;
+    color: red;
+    transition: 0.5s;
+}
+.main-footer {
+    padding-top: 50px;
+    color: white;
+}
+
+.main-footer li {
+    list-style: none;
+}
+.main-footer li a {
+    text-decoration: none;
+    color: white;
+}
+.main-footer li a:hover {
+    color: #ff0000;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}

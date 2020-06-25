@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+
+        <!-- google fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- style sheet  -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- responsive css -->
+        <link rel="stylesheet" href="responsive.css" />
+        <title>Rokomari.com</title>
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="inner-header d-flex align-items-center justify-content-between w-100"
+                    >
+                        <div class="logo">
+                            <a href="">
+                                <img
+                                    src="./img/logo.png"
+                                    alt="logo"
+                                    class="navbar-brand"
+                                />
+                            </a>
+                        </div>
+                        <div class="search-box d-flex justify-content-between">
+                            <p>
+                                Books
+                                <span
+                                    ><svg
+                                        class="bi bi-chevron-compact-down"
+                                        width="1em"
+                                        height="1em"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                        /></svg
+                                ></span>
+                            </p>
+                            <input type="text" placeholder="Search By Books" />
+                            <button class="text-white">
+                                <svg
+                                    class="bi bi-search"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"
+                                    />
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="icons d-flex">
+                            <a href="">
+                                <img
+                                    src="./img/cart.png"
+                                    class="pr-3 img-fluid"
+                                    alt="cart"
+                                />
+                            </a>
+                            <a href="">
+                                <img
+                                    src="./img/user.png"
+                                    alt="user"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- navbar on small device -->
+        <nav
+            class="navbar d-sm-block d-md-none navbar-expand-lg navbar-light bg-light"
+        >
+            <a class="navbar-brand" href="#"></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="menu">
+                    <li class="nav-item active">
+                        <a href=""
+                            >books
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >electronics
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >gift finder
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >corporate sale
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >others
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >blog
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- navbar on medium device -->
+        <nav class="navbar mobile-nav-hide navbar-light navbar-expand-md">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                class="collapse navbar-collapse d-flex justify-content-center"
+                id="navbarNav"
+            >
+                <ul class="navbar-nav" id="menu">
+                    <li class="nav-item active">
+                        <a href=""
+                            >books
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >electronics
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >gift finder
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >corporate sale
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >others
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""
+                            >blog
+                            <span
+                                ><svg
+                                    class="bi bi-chevron-compact-down"
+                                    width="1em"
+                                    height="1em"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+                                    /></svg></span
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero section -->
+        <section id="hero">
+            <div class="container d-flex">
+                <div class="row align-items-center w-100">
+                    <div class="col-lg-6">
+                        <div class="text">
+                            <h4>Are You Ready To Learn?</h4>
+                            <h1>
+                                Start Learning <br />
+                                New Things Today
+                            </h1>
+                            <button class="btn btn-common">Let's Start</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-img">
+                            <img
+                                src="./img/hero.png"
+                                alt="hero-image"
+                                class="img-fluid"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Summary section -->
+        <section id="summary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <div class="summary-inner text-center">
+                            <img
+                                src="./img/cap.png"
+                                alt="cap"
+                                class="img-fluid"
+                            />
+                            <h4>1500+ Topic</h4>
+                            <p>Learn Anything</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <div class="summary-inner text-center">
+                            <img
+                                src="./img/graduate.png"
+                                alt="cap"
+                                class="img-fluid"
+                            />
+                            <h4>1800+ Students</h4>
+                            <p>Learn Anything</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <div class="summary-inner text-center">
+                            <img
+                                src="./img/pen.png"
+                                alt="cap"
+                                class="img-fluid"
+                            />
+                            <h4>9k+ Test Taken</h4>
+                            <p>Learn Anything</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <div class="summary-inner text-center">
+                            <img
+                                src="./img/certificate.png"
+                                alt="cap"
+                                class="img-fluid"
+                            />
+                            <h4>2000 A+</h4>
+                            <p>Learn Anything</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- online course -->
+        <section id="course">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="online-text">Online Course</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-5">
+                        <div class="course-inner">
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    src="./img/course3.png"
+                                    class="card-img-top"
+                                    alt="card-image1"
+                                />
+                                <div class="clearfix">
+                                    <img
+                                        class="person-img float-left"
+                                        src="./img/c-person1.png"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./img/Free.png"
+                                        alt=""
+                                        class="float-right free-img"
+                                    />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Modern Psychology
+                                    </h5>
+                                    <p class="card-text">
+                                        Designation
+                                    </p>
+                                    <a href="#" class="btn btn-common btn-card"
+                                        >Buy Course</a
+                                    >
+                                    <div class="clearfix footer">
+                                        <div class="float-left">
+                                            <svg
+                                                class="bi bi-calendar-date"
+                                                width="1em"
+                                                height="1em"
+                                                viewBox="0 0 16 16"
+                                                fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"
+                                                />
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-3a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"
+                                                />
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M3.5 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zm9 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5z"
+                                                />
+                                            </svg>
+                                            <span>Start: 20 July, 2020</span>
+                                        </div>
+                                        <div class="float-right">
+                                            <svg
+                                                class="bi bi-hand-thumbs-up"
+                                                width="1em"
+                                                height="1em"
+                                                viewBox="0 0 16 16"
+                                                fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"
+                                                />
+                                            </svg>
+                                            <span>60 Seats</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="course-inner">
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    src="./img/course1.png"
+                                    class="card-img-top"
+                                    alt="card-image1"
+                                />
+                                <div class="clearfix">
+                                    <img
+                                        class="person-img float-left"
+                                        src="./img/c-person2.png"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./img/Free.png"
+                                        alt=""
+                                        class="float-right free-img"
+                                    />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Hr Management
+                                    </h5>
+                                    <p class="card-text">
+                                        Designation
+                                    </p>
+                                    <a href="#" class="btn btn-common btn-card"
+                                        >Buy Course</a
+                                    >
+                                    <div class="clearfix footer">
+                                        <div class="float-left">
+                                            <svg
+                                                class="bi bi-calendar-date"
+                                                width="1em"
+                                                height="1em"
+                                                viewBox="0 0 16 16"
+                                                fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"
+                                                />
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-3a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"
+                                                />
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M3.5 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zm9 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5z"
+                                                />
+                                            </svg>
+                                            <span>Start: 20 July, 2020</span>
+                                        </div>
+                                        <div class="float-right">
+                                            <svg
+                                                class="bi bi-hand-thumbs-up"
+                                                width="1em"
+                                                height="1em"
+                                                viewBox="0 0 16 16"
+                                                fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"
+                                                />
+                                            </svg>
+                                            <span>60 Seats</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="course-inner">
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    src="./img/course2.png"
+                                    class="card-img-top"
+                                    alt="card-image1"
+                                />
+                                <div class="clearfix">
+                                    <img
+                                        class="person-img float-left"
+                                        src="./img/c-person3.png"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./img/Free.png"
+                                        alt=""
+                                        class="float-right free-img"
+                                    />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Modern Psychology
+                                    </h5>
+                                    <p class="card-text">
+                                        Designation
+                                    </p>
+                                    <a href="#" class="btn btn-common btn-card"
+                                        >Buy Course</a
+                                    >
+                                    <div class="clearfix footer">
+                                        <div class="float-left">
+                                            <svg
+                                                class="bi bi-calendar-date"
+                                                width="1em"
+                                                height="1em"
+                                                viewBox="0 0 16 16"
+                                                fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"
+                                                />
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-3a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"
+                                                />
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M3.5 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zm9 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5z"
+                                                />
+                                            </svg>
+                                            <span>Start: 20 July, 2020</span>
+                                        </div>
+                                        <div class="float-right">
+                                            <svg
+                                                class="bi bi-hand-thumbs-up"
+                                                width="1em"
+                                                height="1em"
+                                                viewBox="0 0 16 16"
+                                                fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"
+                                                />
+                                            </svg>
+                                            <span>60 Seats</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button class="btn btn-all-course">
+                            View All Course
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TEstimonial -->
+        <section id="testimonial carouselExampleControls">
+            <div class="container">
+                <div class="row" style="padding-top: 100px;">
+                    <div class="col-12 text-center">
+                        <h1>Testimonial</h1>
+                    </div>
+                </div>
+                <div
+                    id="carouselExampleControls"
+                    class="row main-testimonial pt-5 d-flex align-items-center carousel slide"
+                    data-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div
+                                class="row main-testimonial pt-5 d-flex align-items-center"
+                            >
+                                <div
+                                    class="col-sm-12 col-md-2 text-center mb-3"
+                                >
+                                    <svg
+                                        href="#carouselExampleControls"
+                                        role="button"
+                                        data-slide="prev"
+                                        class="bi bi-chevron-left arrow"
+                                        width="1em"
+                                        height="1em"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="col-sm-12 col-md-2 mb-3">
+                                    <img
+                                        src="./img/testimonial.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <p class="testimonial-text">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Nisi sint tenetur
+                                        temporibus! Corrupti mollitia culpa
+                                        nesciunt dolores facere quos aperiam,
+                                        quo non odit et modi doloremque
+                                        praesentium ipsam, aspernatur magnam.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <span
+                                            class="mt-2"
+                                            style="
+                                                font-weight: 500;
+                                                margin-left: 20px;
+                                            "
+                                            >User Name -
+                                            <span style="font-weight: 300;"
+                                                >Students</span
+                                            ></span
+                                        >
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-sm-12 col-md-2 text-center mb-3"
+                                >
+                                    <svg
+                                        href="#carouselExampleControls"
+                                        class="bi bi-chevron-right arrow"
+                                        role="button"
+                                        data-slide="next"
+                                        width="1em"
+                                        height="1em"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="row main-testimonial pt-5 d-flex align-items-center"
+                            >
+                                <div
+                                    class="col-sm-12 col-md-2 text-center mb-3"
+                                >
+                                    <svg
+                                        href="#carouselExampleControls"
+                                        role="button"
+                                        data-slide="prev"
+                                        class="bi bi-chevron-left arrow"
+                                        width="1em"
+                                        height="1em"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="col-sm-12 col-md-2 mb-3">
+                                    <img
+                                        src="./img/testimonial.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <p class="testimonial-text">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Nisi sint tenetur
+                                        temporibus! Corrupti mollitia culpa
+                                        nesciunt dolores facere quos aperiam,
+                                        quo non odit et modi doloremque
+                                        praesentium ipsam, aspernatur magnam.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <span
+                                            class="mt-2"
+                                            style="
+                                                font-weight: 500;
+                                                margin-left: 20px;
+                                            "
+                                            >User Name -
+                                            <span style="font-weight: 300;"
+                                                >Students</span
+                                            ></span
+                                        >
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-sm-12 col-md-2 text-center mb-3"
+                                >
+                                    <svg
+                                        href="#carouselExampleControls"
+                                        class="bi bi-chevron-right arrow"
+                                        role="button"
+                                        data-slide="next"
+                                        width="1em"
+                                        height="1em"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="row main-testimonial pt-5 d-flex align-items-center"
+                            >
+                                <div
+                                    class="col-sm-12 col-md-2 text-center mb-3"
+                                >
+                                    <svg
+                                        href="#carouselExampleControls"
+                                        role="button"
+                                        data-slide="prev"
+                                        class="bi bi-chevron-left arrow"
+                                        width="1em"
+                                        height="1em"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="col-sm-12 col-md-2 mb-3">
+                                    <img
+                                        src="./img/testimonial.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <p class="testimonial-text">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Nisi sint tenetur
+                                        temporibus! Corrupti mollitia culpa
+                                        nesciunt dolores facere quos aperiam,
+                                        quo non odit et modi doloremque
+                                        praesentium ipsam, aspernatur magnam.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <svg
+                                            class="bi bi-star-fill star"
+                                            width="1em"
+                                            height="1em"
+                                            viewBox="0 0 16 16"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                            />
+                                        </svg>
+                                        <span
+                                            class="mt-2"
+                                            style="
+                                                font-weight: 500;
+                                                margin-left: 20px;
+                                            "
+                                            >User Name -
+                                            <span style="font-weight: 300;"
+                                                >Students</span
+                                            ></span
+                                        >
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-sm-12 col-md-2 text-center mb-3"
+                                >
+                                    <svg
+                                        href="#carouselExampleControls"
+                                        class="bi bi-chevron-right arrow"
+                                        role="button"
+                                        data-slide="next"
+                                        width="1em"
+                                        height="1em"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="newsletter">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-5">
+                            <h2>Subscribe To Our Newsletter</h2>
+                            <p>
+                                Don't miss any update of our new Course and all
+                                the astonishing offers
+                            </p>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="d-flex">
+                                <input
+                                    placeholder="Email Address"
+                                    type="email"
+                                    class="form-control mr-3"
+                                    id="exampleInputEmail1"
+                                />
+                                <button type="submit" class="btn btn-footer">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-footer">
+                    <div class="row">
+                        <div class="col-md-3 mt-5 mb-4 copyright">
+                            <p>
+                                Millions of people of all ages and from around
+                                the world are improving their lives with us
+                            </p>
+                            <strong>Copyright ©2020 Rokomari.com </strong>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <h3>Courses</h3>
+                            <li><a href="">Graphics Design</a></li>
+                            <li><a href="">Web Development</a></li>
+                            <li><a href="">Business</a></li>
+                            <li><a href="">Marketing</a></li>
+                            <li><a href="">Engineering</a></li>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <h3>temporibus</h3>
+                            <li><a href="">Terms of Use</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Support Policy</a></li>
+                            <li><a href="">Refund Policy</a></li>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <h3>Useful Link</h3>
+                            <li><a href="">Learning Community</a></li>
+                            <li><a href="">Become a contributor</a></li>
+                            <li><a href="">Support Forum</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
